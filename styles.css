@@ -1,0 +1,90 @@
+body{
+    background-color:hsl(0, 0%, 86%);
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+
+}
+.container{
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+}
+
+.box{
+    width: 600px;
+    background-color: white;
+    height: 500px;
+    border-radius: 10px 10px 100px;
+    padding-left: 30px;
+    padding-top: 20px;
+    position: relative;
+}
+
+
+input{
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    padding-left: 15px;
+    margin-bottom: 1px;
+    border-radius: 8px;
+    border: 1px solid lightgray;    
+    font-family: "Poppins", Sans serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+form{
+    font-size: 13px;
+    font-weight: 700;
+    color:hsl(0, 1%, 44%);
+    margin-bottom: 30px;
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.arrow{
+    background-color: transparent;
+    width: 0.1px;
+    height: 1px;
+    border: none;
+}
+
+.arrow > img{
+    border-radius: 50%;
+    background-color: rgb(199, 31, 199);
+    width: 40px;
+    height: auto;
+    padding: 10px;
+    position: absolute;
+    top: 106px;
+    right: 50px;
+
+}
+
+hr{
+    width: 489px;
+    border: 1px solid hsl(0, 0%, 88%);
+}
+
+span{
+    color: rgb(199, 31, 199);;
+}
+
+.age p{
+    font-style: italic;
+    font-size: 86px;
+    font-weight: 1000;
+}
+
+.error{
+    margin-bottom: 10px;
+    color: red;
+}
